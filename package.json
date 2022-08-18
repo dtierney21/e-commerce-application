@@ -1,7 +1,7 @@
 {
   "name": "module-13-challenge-orm",
   "version": "1.0.0",
-  "description": "",
+  "description": "e-commerce back-end application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,10 +14,22 @@
     "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Dustin Tierney",
+  "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.7.1"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

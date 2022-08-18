@@ -5,3 +5,5 @@ package-lock.json
 INSTRUCTIONS.md
 /Assets
 /config
+.prettierrc
+.eslintrc.json
