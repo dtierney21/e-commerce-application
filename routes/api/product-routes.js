@@ -15,6 +15,7 @@ router.get('/', async (req, res) => {
             {
                 model: Tag,
                 through: ProductTag,
+                as: 'product_tags',
             },
         ],
     }).catch((err) => {
@@ -38,6 +39,7 @@ router.get('/:id', async (req, res) => {
             {
                 model: Tag,
                 through: ProductTag,
+                as: 'product_tags',
             },
         ],
     }).catch((err) => {
